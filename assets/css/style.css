@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    list-style-type: none !important;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.min-vh-100 {
+    height: 100vh;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.heading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+    text-align: left;
+    padding-bottom: 41px;
+}
+
+.cardbox {
+    background: #EBEAED;
+    padding: 30px 39px 49px 33px;
+}
+
+.copybtn {
+    padding: 10px 20px;
+    border: 2px solid #EBEAED;
+    border-radius: 20px;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+    color: #1E0E62;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.cardbox-1 {
+    width: 200px;
+    height: 146px;
+}
+
+.heading1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #1E0E62;
+
+}
+.gap-7{
+    gap: 7px;
+}
+
+.page {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #15143966;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+.padding-b{
+    padding-bottom: 16px;
+}
